@@ -1,24 +1,16 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Test Driven Development
 
-Things you may want to cover:
+### Recipe 
+- Should be valid
+- Name should be present
+- Description should be present
+- Chef ID should be present
+- Maximum length for name and description, and a minimum for description
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Chef
+- Chef name should be present
+- Email should be present
+- Size restrictions on email and chef name, maximum and minimum
+- Email address should be valid format
+- Email should be unique and case insensitive
