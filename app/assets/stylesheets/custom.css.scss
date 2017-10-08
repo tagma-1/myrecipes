@@ -21,3 +21,28 @@ $navbar-default-bg: #093C4B;
   text-align: center;
 }
 
+.jumbotron {
+  background-image: asset-url("cover_img.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.jumbotron h1, h2 {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  background-color: #093C4B;
+  border-color: #FFF;
+}
+
+.btn-xlarge:hover {
+  background-color: grey;
+  text-decoration: none;
+  border-color: #FFF;
+}
+
