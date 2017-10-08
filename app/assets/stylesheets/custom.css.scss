@@ -27,7 +27,7 @@ $navbar-default-bg: #093C4B;
   height: 300px;
 }
 
-.jumbotron h1, h2 {
+.jumbotron h1, .jumbotron h2 {
   color: #FFF;
   text-align: center;
   margin-bottom: 30px;
@@ -56,4 +56,12 @@ $navbar-default-bg: #093C4B;
 
 .text-muted {
   color: #FFF;
+  float: left;
+  margin-top: 1em;
+}
+
+.about {
+  color: #FFF;
+  float: right;
+  margin-top: 1em;
 }
