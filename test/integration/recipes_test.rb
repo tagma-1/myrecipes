@@ -4,7 +4,7 @@ class RecipesTest < ActionDispatch::IntegrationTest
   
   def setup
     @chef = Chef.create!(chefname: 'Dave', email: 'dave@example.com')
-    @recipe = Recipe.create!(name: "Vegetable Sautee", description: "Great vegetable sautee - add vegetable and oil", chef: @chef)
+    @recipe = Recipe.create!(name: "Vegetable sautee", description: "Great vegetable sautee - add vegetable and oil", chef: @chef)
     @recipe_two = @chef.recipes.build(name: "Chicken Sautee", description: "Great chicken dish")
     @recipe_two.save
   end
@@ -17,10 +17,17 @@ class RecipesTest < ActionDispatch::IntegrationTest
   test "should get recipes listing" do
     get recipes_path
     assert_template 'recipes/index'
-    assert_match @recipe.name, response.body
-    assert_match @recipe_two.name, response.body
+    assert_select "a[href=?]", recipe_path(@recipe), text: @recipe.name
+    assert_select "a[href=?]", recipe_path(@recipe_two), text: @recipe_two.name
   end
   
+  test "should get recipes show" do
+    get recipe_path(@recipe)
+    assert_template 'recipes/show'
+    assert_match @recipe.name, response.body
+    assert_match @recipe.description, response.body
+    assert_match @chef.chefname, response.body
+  end
   # test "the truth" do
   #   assert true
   # end
