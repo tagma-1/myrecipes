@@ -16,7 +16,7 @@ class RecipesController < ApplicationController
   def create
     
     @recipe = Recipe.new(recipe_params)
-    @recipe.chef = Chef.first #to be updated once authentication has been added
+    @recipe.chef = current_chef
     
     if @recipe.save
       flash[:success] = "Recipe was created successfully."
