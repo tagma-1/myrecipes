@@ -1,4 +1,4 @@
-$navbar-bg: #093C4B; 
+$navbar-default-bg: #093C4B;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -98,4 +98,8 @@ $navbar-bg: #093C4B;
   color: #093C4B;
   font-weight: bold;
   font-size: 1.25em;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
