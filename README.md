@@ -1,7 +1,7 @@
 
 # MyRecipes
 
-Project-demo as part of the <a href="https://www.udemy.com/pro-ruby-on-rails-rails5">Professional Ruby on Rails Developer with Rails 5</a> course. The application remains in development, but the latest version is live at: https://myrecipes-demo.herokuapp.com.
+Project demo recipe-sharing application as part of the <a href="https://www.udemy.com/pro-ruby-on-rails-rails5">Professional Ruby on Rails Developer with Rails 5</a> course. The application remains in development, but the latest version is live at: https://myrecipes-demo.herokuapp.com.
 
 <img src="https://raw.githubusercontent.com/tagma-1/myrecipes/master/MyRecipes.png?token=AeUNypSEJJOywIMClILEIQTBhlnOSs8Oks5aHnsfwA%3D%3D">
 
