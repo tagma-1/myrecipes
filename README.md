@@ -1,8 +1,9 @@
 
 # MyRecipes
-## Project-demo as part of the <a href="https://www.udemy.com/pro-ruby-on-rails-rails5">Professional Ruby on Rails Developer with Rails 5</a> course
 
-### Project/Course Overview
+Project-demo as part of the <a href="https://www.udemy.com/pro-ruby-on-rails-rails5">Professional Ruby on Rails Developer with Rails 5</a> course. The application remains in development, but the latest version is live at: https://myrecipes-demo.herokuapp.com.
+
+## Project/Course Overview
 
 This course has been focussed on practising and understanding the fundamentals of Rails. Most of the code has been written from scratch and without the use of generators, shortcuts or scaffolding. 
 
